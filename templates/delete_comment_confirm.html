@@ -1,0 +1,40 @@
+<section class="container">
+<div class="matelook_comment">
+<div class="child">
+<p>{from_zid_comment_name}: {comment}</p>
+<p>Time: {time_comment}</p>
+
+
+
+<table align="center">
+<tr>
+<td>
+<form method="POST" action="?url=delete_comment">
+	<input type="hidden" name="comment_id" value="{comment_id}">
+	<input type="hidden" name="zid" value="{current_user}">
+	<input type="hidden" name="current_user" value="{current_user}">
+	<input type="hidden" name="post_id" value="{post_id}">
+	<input type="hidden" name="message" value="{message}">
+	<input type="hidden" name="time" value="{time}">
+	<input type="hidden" name="comment" value="{comment}">
+	<input type="hidden" name="time" value="{time_comment}">
+	<input type="submit" name="action" value="CONFIRM">
+</form>
+</td>
+<td>
+<form method="POST" action="?url=post_detail">
+	<input type="hidden" name="post_id" value="{post_id}">
+	<input type="hidden" name="message" value="{message}">
+	<input type="hidden" name="time" value="{time}">
+	<input type="hidden" name="comment" value="{comment}">
+	<input type="hidden" name="time" value="{time_comment}">
+	<input type="hidden" name="current_user" value="{current_user}">
+	<input type="hidden" name="zid" value="{current_user}">
+	<input type="submit" value="BACK">	
+</form>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</section>

@@ -1,0 +1,22 @@
+<div class="matelook_recent_post">
+<p class="matelook_text">Post ID: {post_id}</p>
+<p class="matelook_text">Time: {time}</p>
+<p>{message}</p>
+<table>
+<tr>
+<td>
+<form name="recent_post" method="POST" action="?url=post_detail">
+<input type="hidden" name="post_id" value="{post_id}">
+<input type="hidden" name="message" value="{message}">
+<input type="hidden" name="time" value="{time}">
+<input type="hidden" name="zid" value="{zid}">
+<input type="hidden" name="current_user" value="{current_user}">
+<a href="javascript:;" onclick="parentNode.submit();">
+<p>comment:{comment_number}</p>
+</a>
+</form>
+</td>
+</tr>
+</table>
+<br>
+</div>

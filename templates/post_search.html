@@ -1,0 +1,25 @@
+<section class="container">
+<div class="matelook_comment">
+<div class="child">
+
+<form method="POST" action="?url=mate_homepage">
+<a href="javascript:;" onclick="parentNode.submit();"><p>{zid_name}</p></a>
+<input type="hidden" name="zid" value="{zid}">
+<input type="hidden" name="current_user" value="{current_user}">
+</form>
+<font size="3"><p>Time: {time}</p></font>
+<p>Post: {message}</p>
+
+<form method="POST" action="?url=post_detail">
+<a href="javascript:;" onclick="parentNode.submit();">
+<p>comment:{comment_number}</p>
+</a>
+<input type="hidden" name="post_id" value="{post_id}">
+<input type="hidden" name="message" value="{message}">
+<input type="hidden" name="time" value="{time}">
+<input type="hidden" name="zid" value="{zid}">
+<input type="hidden" name="current_user" value="{current_user}">
+</form>
+</div>
+</div>
+</section>

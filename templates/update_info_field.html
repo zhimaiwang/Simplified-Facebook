@@ -1,0 +1,20 @@
+<form id="update_info" align="center" class="matelook_create_account" method="POST" action="?url=update_info">
+	ZID:<input type="text" name="zid" value="{zid}" style="background-color: #f8f8f8;" readonly><br><p>
+	USERNAME:<input type="text" name="username" value="{username}"><br><p>
+	ORIGINAL PASSWORD:<input type="password" name="original_password"><br><p>
+	NEW PASSWORD:<input type="password" name="new_password"><br><p>
+	NEW PASSWORD AGAIN:<input type="password" name="new_password_again"><br><p>
+	EMAIL:<input type="text" name="email" value="{email}"><br><p>
+	BIRTHDAY:<input type="text" name="birthday" value="{birthday}"><br><p>
+	HOME SUBURB:<input type="text" name="home_suburb" value="{home_suburb}"><br><p>
+	PROGRAM:<input type="text" name="program" value="{program}"><br><p>
+	COURSE:<br>
+	<textarea name="course" form="update_info" rows="10" cols="80">{course}</textarea><br>
+
+	SELF INTRODUCTION:<br>
+	<textarea name="self_intro" form="update_info" rows="10" cols="80" placeholder="Write something about yourself...">{self_intro}</textarea><br>
+	<input type="hidden" name="original_password_for_check" value="{original_password_for_check}">
+	<input type="hidden" name="current_user" value="{current_user}">
+	<input type="submit" name="SUBMIT">
+	<input type="reset" name="RESET">
+</form>

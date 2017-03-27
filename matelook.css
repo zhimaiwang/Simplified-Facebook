@@ -1,0 +1,117 @@
+/*
+ * written by andrewt@cse.unsw.edu.au September 2016
+ * as a starting point for COMP2041/9041 assignment 2
+ * http://cgi.cse.unsw.edu.au/~cs2041/assignments/matelook/
+ *
+ * Change (or replace) the CSS below to create you own look-and-feel
+ *
+ * You will probably want to add  CSS to this file too
+ */
+
+.matelook_heading {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.matelook_user_details {
+    background-color: #ABCDEF;
+    color: #204142;
+    white-space: pre;
+    border:thin solid #204142;
+    border-radius: 1em;
+    padding-left: 0.42em;
+}
+
+.matelook_button {
+    background-color: #FEDBCA;
+    border:thin solid #904142;
+    border-radius: 0.42em;
+    color: #904142;
+}
+
+.matelook_left_bar {
+    float:left;
+    width:33.33333%;
+}
+
+.matelook_right_bar {
+    float:right;
+    width:66.66666%;
+}
+
+.matelook_display_container {
+    position:relative;
+}
+
+.matelook_container {
+    padding:0.01em 16px;
+}
+
+.matelook_login_form {
+    text-align: center;
+}
+
+.matelook_title {
+    color:#757575!important
+}
+
+.matelook_text {
+    color:#009688!important
+}
+
+.mate_search_bar {
+    float:right;
+}
+
+.matelook_comment {
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;
+}
+
+.matelook_comment > .child {
+    position: relative;
+    left: 50%;
+}
+
+
+
+.matelook_create_account {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.matelook_recent_post {
+    padding:0.01em 16px;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    color:#000!important;background-color:#fff!important;
+    border-radius:4px!important;
+    margin:16px!important;
+}
+
+.matelook_navigation {
+    float:right;
+    width:33.333333%;
+}
+
+
+
+
+.container {
+    width: 800px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+

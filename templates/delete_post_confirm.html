@@ -1,0 +1,31 @@
+<section class="container">
+<div class="matelook_comment">
+<div class="child">
+<p>Post: {message}</p>
+<p>Time: {time}</p>
+
+
+<table align="center">
+<tr>
+<td>
+<form method="POST" action="?url=delete_post">
+	<input type="hidden" name="post_id" value="{post_id}">
+	<input type="hidden" name="zid" value="{zid}">
+	<input type="hidden" name="current_user" value="{current_user}">
+	<input type="submit" name="action" value="CONFIRM">
+</form>
+</td>
+<td>
+<form method="POST" action="?url=user_homepage">
+	<input type="hidden" name="zid" value="{zid}">
+	<input type="hidden" name="current_user" value="{current_user}">
+	<input type="submit" value="BACK">
+</form>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</section>
+
+

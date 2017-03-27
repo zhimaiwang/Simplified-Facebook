@@ -1,0 +1,35 @@
+<section class="container">
+<div class="matelook_comment">
+<div class="child">
+<p>{from_zid_reply_name}: {reply}</p>
+<p>Time: {time_reply}</p>
+
+
+<table align="center">
+<tr>
+<td>
+<form method="POST" action="?url=delete_reply">
+	<input type="hidden" name="reply_id" value="{reply_id}">
+	<input type="hidden" name="zid" value="{current_user}">
+	<input type="hidden" name="current_user" value="{current_user}">
+	<input type="hidden" name="post_id" value="{post_id}">
+	<input type="hidden" name="message" value="{message}">
+	<input type="hidden" name="time" value="{time}">
+	<input type="submit" name="action" value="CONFIRM">
+</form>
+</td>
+<td>
+<form method="POST" action="?url=post_detail">
+	<input type="hidden" name="current_user" value="{current_user}">
+	<input type="hidden" name="zid" value="{current_user}">
+	<input type="hidden" name="post_id" value="{post_id}">
+	<input type="hidden" name="message" value="{message}">
+	<input type="hidden" name="time" value="{time}">
+	<input type="submit" value="BACK">
+</form>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</section>
